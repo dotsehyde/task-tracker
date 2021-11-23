@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "remainder": true,
+      "text": "Car washing",
+      "day": "May 3 at 4:00pm",
+      "id": 2
+    },
+    {
+      "remainder": true,
+      "text": "Shopping",
+      "day": "May 23 at 5:00pm",
+      "id": 3
+    },
+    {
+      "text": "Dishes",
+      "day": "June 5 at 2:00am",
+      "remainder": false,
+      "id": 4
+    },
+    {
+      "text": "Homework",
+      "day": "Today!!",
+      "remainder": true,
+      "id": 5
+    }
+  ]
+}
