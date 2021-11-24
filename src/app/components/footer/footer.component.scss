@@ -1,0 +1,15 @@
+div {
+  margin: 10px;
+  text-align: center;
+}
+div > a {
+  padding-top: 5px;
+  text-decoration: none;
+  color: black;
+
+  font-size: large;
+  &:hover {
+    text-decoration: underline;
+    color: #706d6d;
+  }
+}
