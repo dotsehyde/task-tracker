@@ -1,0 +1,11 @@
+<div
+  [ngClass]="{ remainder: task.remainder == true }"
+  (dblclick)="rToggle(task)"
+  class="wrapper"
+>
+  <h3>
+    {{ task.text }}
+    <fa-icon (click)="deleteTask()" [icon]="delIcon"></fa-icon>
+  </h3>
+  <p>{{ task.day }}</p>
+</div>

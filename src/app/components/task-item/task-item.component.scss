@@ -1,0 +1,24 @@
+.wrapper {
+  background-color: #ececec;
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  &:hover {
+    box-shadow: 0px 0px 2px 1px #aaa9a9;
+  }
+}
+
+.remainder {
+  border-left: 5px solid green;
+}
+
+h3 {
+  display: flex;
+  justify-content: space-between;
+}
+h3 > fa-icon {
+  color: red;
+  &:hover {
+    cursor: pointer;
+  }
+}
