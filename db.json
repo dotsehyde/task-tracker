@@ -7,7 +7,7 @@
       "id": 2
     },
     {
-      "remainder": false,
+      "remainder": true,
       "text": "Shopping",
       "day": "May 23 at 5:00pm",
       "id": 3
@@ -15,14 +15,8 @@
     {
       "text": "Dishes",
       "day": "June 5 at 2:00am",
-      "remainder": true,
+      "remainder": false,
       "id": 4
-    },
-    {
-      "text": "Homework",
-      "day": "Today!!",
-      "remainder": true,
-      "id": 5
     }
   ]
 }
